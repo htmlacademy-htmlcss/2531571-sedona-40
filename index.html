@@ -2,11 +2,95 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона - лучший город на Земле.</title>
   </head>
   <body>
+    <header class = "main-header">
+      <a class = "logo" href = "index.html"><img src="#" alt="Логотип"></a>
+        <nav class ="nav-header">
+          <a href = "index.html">Главная</a>
+          <a href = "#">О Седоне</a>
+          <a href="catalog.html">Гостиницы</a>
+        </nav>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+      <nav class = "nav-user">
+        <a href ="#"><img src ="#" alt ="Страница поиска"></a>
+        <a href ="#"><img src ="#" alt ="Страница избранного"></a>
+        <a href ="#">Хочу сюда!</a>
+      </nav>
+    </header>
+    <main class = "main-index">
+      <section class ="hero">
+        <img src = "#" width = "1200" alt = "Добро пожаловать в Седону">
+        <h1 class = "hero title">Седона — небольшой городок в Аризоне,заслуживающий большего!</h1>
+        <p class ="hero description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
+      <section class = "advantages">
+        <div class = "advantages title">
+          <h2 class = "title name">Настоящий городок</h2>
+          <p class = "title description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          <img src = "#" width = "800" alt = "Здание">
+        </div>
+        <div class = "advantages point">
+          <article class = "points-1">
+            <h2 class = "points-1 name">Небольшая площадь</h2>
+            <p class = "points-1 description">Все достопримечательности находятся очень близко</p>
+          </article>
+          <article class = "points-2">
+            <h2 class = "points-2 name">Красивая дорога</h2>
+            <p class = "points-2 description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </article>
+          <article class = "points-3">
+            <h2 class = "points-3 name">Мало туристов</h2>
+            <p class = "points-3 description">Большинство едет в Гранд Каньон и толпится там</p>
+          </article>
+        </div>
+        <div class = "bridge666">
+          <h2 class = "bridge666 title">Там есть мост дьявола</h2>
+          <p clas = "bridge666 description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <img src = "#" width = "800" alt = "Мост через каньон">
+      </div>
+      </section>
+      <article class = "welcome">
+        <h2 class = "welcome title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <p class = "welcome description">Опытный персонал и качественное обслуживание!</p>
+      </article>
+      <section class = "offer">
+        <div class = "offer house">
+          <h2>Жилье</h2>
+          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        </div>
+        <div class = "offer food">
+          <h2>Еда</h2>
+          <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+        </div>
+        <div class = "offer souvenir">
+          <h2>Сувениры</h2>
+          <p>Не только китайского, но и настоящего местного производства!</p>
+        </div>
+      </section>
+      <seciton class = "find-hotel">
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <button name = "find-button">Поиск гостиницы в Седоне</button>
+      </seciton>
+      <form action="https://echo.htmlacademy.ru/courses" method="get" class = "subscribe">
+        <label>
+        <h2>Подпишитесь</h2>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <input type="email" name="email" placeholder ="Ваш e-mail">
+        <input type = "submit" name="Подписаться">
+        </label>
+      </form>
+      <footer class = "main-footer">
+        <ul class = "social">
+          <li><a href="#"><img src="#" alt="ВК"></a></li>
+          <li><a href ="#"><img src="#" alt="Telegram"></a></li>
+          <li><a href = "#"><img src="#" alt="Youtube"></a></li>
+        </ul>
+        <a class = "tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <img src="#" alt="логотип html academy">
+      </footer>
+    </main>
   </body>
 </html>
