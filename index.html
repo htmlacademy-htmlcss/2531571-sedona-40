@@ -6,19 +6,35 @@
   </head>
   <body>
     <header class = "main-header">
+      <nav class ="navigation">
       <a class = "logo" href = "index.html"><img src="#" alt="Логотип"></a>
-        <nav class ="nav-header">
-          <a href = "index.html">Главная</a>
-          <a href = "#">О Седоне</a>
-          <a href="catalog.html">Гостиницы</a>
-        </nav>
+        <ul class ="navigation-list">
+          <li class ="navigation-item">
+            <a href = "index.html">Главная</a>
+          </li>
+          <li class ="navigation-item">
+            <a href = "#">О Седоне</a>
+          </li>
+          <li class = "navigation-item">
+            <a href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
 
-      <nav class = "nav-user">
-        <a href ="#"><img src ="#" alt ="Страница поиска"></a>
-        <a href ="#"><img src ="#" alt ="Страница избранного"></a>
-        <a href ="#">Хочу сюда!</a>
+      <ul class = "nav-user">
+        <li class = "nav-user-item">
+          <a href ="#"><span class = "visially-hidden">Поиск</span></a>
+        </li>
+        <li class = "nav-user-item">
+          <a href ="#">
+            <span class = "visiually-hidden">Избранное</span>
+            <span class = "notification-badge">12</span>
+          </a>
+        </li>
+      </ul>
       </nav>
+        <a class="head-button" href ="#">Хочу сюда!</a>
     </header>
+
     <main class = "main-index">
       <section class ="hero">
         <img src = "#" width = "1200" alt = "Добро пожаловать в Седону">
