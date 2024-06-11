@@ -22,12 +22,14 @@
 
       <ul class="nav-user">
         <li class="nav-user-item">
-          <a href="#"><img src="images/index-page/search-header.svg" alt="Поиск"></a>
+          <a href="#">
+            <span class="header-search">Поиск</span>
+          </a>
         </li>
         <li class="nav-user-item">
           <a href="#">
-            <img src="images/index-page/favorite-header.svg" alt="Избранное">
-            <span class="notification-badge">12</span>
+            <span class="favorite-header">Избранное</span>
+            <output class="notification-badge">12</output>
           </a>
         </li>
       </ul>
@@ -37,17 +39,18 @@
 
     <main class="main-index" data-test="main">
       <section class="hero" data-test="hero">
-        <img class="hero-img-descr" src="images/index-page/welcome.svg" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
         <h1 class="visually-hidden">Город Седона</h1>
+        <img class="hero-img-descr" src="images/index-page/welcome.svg" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
       </section>
       <section class="advantages-blog" data-test="advantages">
+        <h2 class="visually-hidden">Преимущества Седоны</h2>
         <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="hero description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-        <h2 class="visually-hidden">Преимущества Седоны</h2>
+
         <ul class="advantages-list">
           <li class="advantages-item"><h3>Настоящий городок</h3>
           <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          <img src="images/index-page/photo-true-city.jpg" width = "800" alt="Здание">
+          <img src="images/index-page/photo-true-city.jpg" width = "800" height="385" alt="Здание">
           </li>
           <li class="advantages-item"><h3>Небольшая площадь</h3>
           <p class="advantages-item-description">Все достопримечательности находятся очень близко</p>
@@ -60,27 +63,22 @@
         </li>
           <li class="advantages-item"><h3>Там есть мост дьявола</h3>
           <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-          <img src="images/index-page/photo-bridge-devil.jpg" width="800" alt="Мост через каньон">
+          <img src="images/index-page/photo-bridge-devil.jpg" width="800" height="385" alt="Мост через каньон">
         </li>
         </ul>
       </section>
-      <section class="welcome">
-        <p class="welcome title">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
-        <p class="welcome description">Опытный персонал и качественное обслуживание!</p>
-      </section>
       <section class="offer-list">
+        <h2 class="welcome title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <p class="welcome description">Опытный персонал и качественное обслуживание!</p>
         <ul class="offer-items">
           <li>
-            <img src="images/index-page/Advantage-icon-home.svg">
           <h3>Жилье</h3>
           <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p></li>
           <li>
-            <img src="images/index-page/Advantage-icon-food.svg">
           <h3>Еда</h3>
           <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li>
-            <img src="images/index-page/Advantage-icon-souvenir.svg">
           <h3>Сувениры</h3>
           <p>Не только китайского, но и настоящего местного производства!</p>
           </li>
@@ -89,27 +87,34 @@
       <section class="find-hotel" data-test="search">
         <h3>Заинтересовались?</h3>
         <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button name="find-button">Поиск гостиницы в Седоне</button>
+        <button name="find-button" type="button">Поиск гостиницы в Седоне</button>
       </section>
       <section class="subcribe-main" data-test="subscribe">
         <h3>Подпишитесь на рассылку</h3>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form action="https://echo.htmlacademy.ru/courses" method="post" class="subscribe">
-        <label>
-        <input type="email" name="email" placeholder="Ваш e-mail">
-        </label>
+        <label class="visually-hidden" for="subcr-email"></label>
+        <input id="subcr-email" type="email" name="email" placeholder="Ваш e-mail">
         <button class = "button" type="button">Подписаться</button>
       </form>
     </section>
     </main>
   <footer class="main-footer" data-test="footer">
         <ul class="social">
-          <li><a href="https://vk.com/htmlacademy" target="_blank" rel="noreferrer noopener"><img src="images/index-page/Social-vk.svg" alt="ВК"></a></li>
-          <li><a href="https://t.me/htmlacademy" target="_blank" rel="noreferrer noopener"><img src="images/index-page/Social-tg.svg" alt="Telegram"></a></li>
-          <li><a href="https://www.youtube.com/user/htmlacademyru" target="_blank" rel="noreferrer noopener"><img src="/images/index-page/Social-youtube.svg" alt="Youtube"></a></li>
+          <li><a href="https://vk.com/htmlacademy" target="_blank" rel="noreferrer noopener">
+            <span class="social-vk">Социальная сеть VK</span>
+          </a></li>
+          <li><a href="https://t.me/htmlacademy" target="_blank" rel="noreferrer noopener">
+            <span class="social-tg">Социальная сеть Telegram</span>
+          </a></li>
+          <li><a href="https://www.youtube.com/user/htmlacademyru" target="_blank" rel="noreferrer noopener">
+            <span class="social-youtube">Социальная сеть youtube</span>
+          </a></li>
         </ul>
         <a class="tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="logoacademy" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank" rel="noreferrer noopener"><img src="images/index-page/logo-html-academy.svg" alt="логотип html academy"></a>
+        <a class="logoacademy" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank" rel="noreferrer noopener">
+          <span class="site-html-academy">Сайт Html Academy</span>
+        </a>
       </footer>
     </body>
 </html>
