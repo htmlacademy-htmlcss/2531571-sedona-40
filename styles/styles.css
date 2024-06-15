@@ -47,7 +47,7 @@ body{
 }
 
 .hero{
-  background: url(/images/index-page/index-background.jpg);
+  background: url(../images/index-page/index-background.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
