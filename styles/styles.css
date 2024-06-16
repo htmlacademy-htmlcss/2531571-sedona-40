@@ -223,7 +223,7 @@ body{
 }
 
 .subcribe-main{
-  background:url(/images/index-page/subscribe-background.jpg);
+  background:url(../images/index-page/subscribe-background.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   color:white;
