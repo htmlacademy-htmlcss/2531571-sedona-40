@@ -328,6 +328,13 @@ body{
 }
 
 .hotel-widget-type{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+}
+
+.hotel-widget-price{
+  font-weight: 400;
   font-size: 18px;
   line-height: 117%;
 }
