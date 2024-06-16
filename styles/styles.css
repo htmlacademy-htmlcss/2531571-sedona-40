@@ -251,3 +251,68 @@ body{
   text-align: center;
   color:white;
 }
+
+
+/*---------стили каталога---------*/
+
+.form-filter{
+  background:url(/images/catalog-page/filter-background.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.form-filter>h1{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  color:white;
+}
+
+
+.form-filter-items-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color:white;
+}
+
+.form-filter-items-1>li{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128%;
+  color:white;
+}
+
+.form-filter-items-2>li{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128%;
+  color:white;
+}
+
+.form-filter-price>legend{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color:white;
+
+}
+
+.result-find{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.submit-button{
+  background-color:#82B3D3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color:white;
+}
