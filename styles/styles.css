@@ -256,7 +256,7 @@ body{
 /*---------стили каталога---------*/
 
 .form-filter{
-  background:url(/images/catalog-page/filter-background.jpg);
+  background:url(../images/catalog-page/filter-background.jpg);
   background-repeat:no-repeat;
   background-size:cover;
 }
