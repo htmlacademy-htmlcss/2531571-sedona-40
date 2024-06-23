@@ -383,6 +383,18 @@ body{
   width:230px;
 }
 
+.food-svg{
+  margin:0 auto;
+}
+
+.home-svg{
+  margin:0 auto;
+}
+
+.souvenir-svg{
+  margin:0 auto;
+}
+
 .find-hotel{
   padding: 96px 304px;
   width: 1200px;
