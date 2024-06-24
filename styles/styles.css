@@ -535,6 +535,7 @@ body{
 
 .form-filter-list {
   display: flex;
+  justify-content: space-around;
 }
 
 .form-filter-items{
@@ -681,6 +682,68 @@ label{
   text-align: center;
   color:#FFFFFF;
   background-color:transparent;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:80px;
+}
+
+.filter-result{
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 14px 20px;
+  width: 292px;
+  height: 49px;
+  border-color:#E5E5E5;
+}
+
+.cheap.expencive{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+}
+
+.catalog-view-buttons{
+  display:flex;
+  list-style-type:none;
+}
+
+.hotel-widget{
+  width: 1060px;
+  height: 896px;
+  margin-bottom:80px;
+}
+
+.hotel-widget-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-widget-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: end;
+}
+
+
+.pagination{
+  display:flex;
+  list-style-type:none;
+  gap:30px;
+}
+
+.hotel-widget-card{
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 20px;
+  width: 340px;
+  height: 438px;
 }
 
 .hotel-widget-card>a{
