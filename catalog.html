@@ -15,13 +15,13 @@
         <nav class="navigation">
 
           <ul class="navigation-list">
-            <li class="navigation-item">
+            <li class="catalog-navigation-item">
               <a href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
               <a href="#">О Седоне</a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item catalog-navigation-item">
               <a href="catalog.html">Гостиницы</a>
             </li>
           </ul>
@@ -29,13 +29,13 @@
           <li class="nav-user-item">
             <a href="#">
               <span class="visually-hidden">Поиск</span>
-              <img class="header-search" src="images/index-page/search-header.svg" width="20" height="20" alt="Иконка поиска">
+              <img class="header-search" src="images/index-page/search-header.svg" width="18" height="18" alt="Иконка поиска">
             </a>
           </li>
           <li class="nav-user-item">
             <a class="nav-user-a" href="#">
               <span class="visually-hidden">Избранное</span>
-              <img class="favorite-header" src="images/index-page/favorite-header.svg" width="20" height="20" alt="Иконка избранного">
+              <img class="favorite-header" src="images/index-page/favorite-header.svg" width="18" height="18" alt="Иконка избранного">
             <output class="notification-badge">12</output>
           </a>
           </li>
@@ -56,29 +56,30 @@
           <fieldset class="form-filter-items">
             <legend class="form-filter-items-title">Инфраструктура:</legend>
             <ul class="form-filter-items-1">
-              <li><input type="checkbox" name="pull" checked>Бассейн</li>
-              <li><input type="checkbox" name="parking" checked>Парковка</li>
-              <li><input type="checkbox" name="Wi-Fi">Wi-Fi</li>
+              <li><input class="checkbox-item" type="checkbox" name="pull" checked>Бассейн</li>
+              <li><input class="checkbox-item" type="checkbox" name="parking" checked>Парковка</li>
+              <li><input class="checkbox-item" type="checkbox" name="Wi-Fi">Wi-Fi</li>
             </ul>
             </fieldset>
-            <fieldset class="form-filter-items-2">
+            <fieldset class="form-filter-items-2-list">
             <legend class="form-filter-items-title">Тип Жилья:</legend>
             <ul class="form-filter-items-2">
-              <li><input type="radio" name="type" value="Гостиница" checked>Гостиница</li>
-              <li><input type="radio" name="type" value="Мотель">Мотель</li>
-              <li><input type="radio" name="type" value="Апартаменты">Апартаменты</li>
+              <li><input class="radio-item" type="radio" name="type" value="Гостиница" checked>Гостиница</li>
+              <li><input class="radio-item" type="radio" name="type" value="Мотель">Мотель</li>
+              <li><input class="radio-item" type="radio" name="type" value="Апартаменты">Апартаменты</li>
             </ul>
           </fieldset>
           <fieldset class="form-filter-price">
           <legend>Стоимость, <span>₽:</span></legend>
           <label class="form-filter-label">
             <input class="filter-price-value1" type="number" value="0">
-            <span>От</span>
+            <span>от</span>
           </label>
           <label>
             <input class="filter-price-value2" type="number" value="9000">
-            <span>До</span>
+            <span>до</span>
           </label>
+
         </fieldset>
         <div class="button-container">
         <button class="submit-button" type="submit">Применить</button>
