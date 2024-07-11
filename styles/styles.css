@@ -664,6 +664,7 @@ body{
   border:none;
   border-radius: 0 4px 4px 0;
   padding: 8px 50px;
+  cursor:pointer;
 }
 
 .main-footer {
@@ -1099,6 +1100,7 @@ margin-right: 10px;
   display:flex;
   flex-wrap:wrap;
   margin-top:50px;
+  margin-bottom:40px;
 }
 
 .form-filter>h1{
@@ -1218,7 +1220,9 @@ margin-right: 10px;
   line-height: 120%;
   text-transform: uppercase;
   margin:0;
-  margin-right:200px;
+  margin-top:5px;
+  margin-right:208px;
+  margin-left:5px;
 }
 
 .button-container {
@@ -1266,7 +1270,7 @@ margin-right: 10px;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin-bottom:80px;
+  margin-bottom:60pxx;
 }
 
 .filter-result{
@@ -1278,7 +1282,7 @@ margin-right: 10px;
   border-color:#E5E5E5;
   margin-right:70px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 117%;
 }
 
@@ -1298,7 +1302,7 @@ margin-right: 10px;
 }
 
 .catalog-view-button-grid{
-  border: 2px solid;
+  border: 2px solid #000000;
   border-radius: 4px;
   padding: 14px 12px;
   width: 48px;
@@ -1308,6 +1312,7 @@ margin-right: 10px;
   background-position:center;
   cursor:pointer;
   background-color:transparent;
+  display:block;
 }
 
 .card-view-button-slider{
@@ -1322,6 +1327,7 @@ margin-right: 10px;
   cursor:pointer;
   background-color:transparent;
   border-color:#E5E5E5;
+  display:block;
 }
 
 .card-view-button-list{
@@ -1336,12 +1342,13 @@ margin-right: 10px;
   cursor:pointer;
   background-color:transparent;
   border-color:#E5E5E5;
+  display:block;
 }
 
 .hotel-widget{
-  width: 1060px;
-  height: 896px;
-  margin-bottom:80px;
+  padding-bottom:40px;
+  margin-bottom:40px;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .hotel-widget-favorite{
@@ -1384,6 +1391,8 @@ margin-right: 10px;
   list-style-type: none;
   gap: 20px;
   justify-content: end;
+  margin:0;
+  padding:0;
 }
 
 .pagination-list{
@@ -1397,6 +1406,7 @@ margin-right: 10px;
   gap:8px;
   width: 400px;
   height: 60px;
+  margin:0;
   padding:0;
 }
 
@@ -1466,12 +1476,14 @@ margin-right: 10px;
   font-weight: 400;
   font-size: 18px;
   line-height: 117%;
+  margin:14px 0;
 }
 
 .hotel-widget-price{
   font-weight: 400;
   font-size: 18px;
   line-height: 117%;
+  margin:14px 0;
 }
 
 .hotel-widget-about{
