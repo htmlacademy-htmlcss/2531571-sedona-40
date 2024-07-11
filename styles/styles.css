@@ -1270,7 +1270,7 @@ margin-right: 10px;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin-bottom:60pxx;
+  margin-bottom:60px;
 }
 
 .filter-result{
@@ -1518,6 +1518,7 @@ margin-right: 10px;
   margin:0;
   text-align: center;
   padding-top:8px;
+  text-transform:uppercase;
 }
 
 
