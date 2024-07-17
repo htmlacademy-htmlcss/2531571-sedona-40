@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Миронов](https://up.htmlacademy.ru/htmlcss/40/user/2531571).
-* Наставник: `Неизвестно`.
+* Наставник: [Олег Зайцев](https://htmlacademy.ru/profile/ozi).
+* Сайт: [Мой проект Седона](https://mironovaleksandr199304.github.io/2531571-sedona-40/)
 
 ---
 
