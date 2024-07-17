@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
   </head>
   <body>
     <div class="wrapper">
@@ -21,7 +22,7 @@
             <li class="navigation-item">
               <a href="#">О Седоне</a>
             </li>
-            <li class="navigation-item catalog-navigation-item">
+            <li class="navigation-item current-page">
               <a href="catalog.html">Гостиницы</a>
             </li>
           </ul>
@@ -56,17 +57,35 @@
           <fieldset class="form-filter-items">
             <legend class="form-filter-items-title">Инфраструктура:</legend>
             <ul class="form-filter-items-1">
-              <li><input class="checkbox-item" type="checkbox" name="pull" checked>Бассейн</li>
-              <li><input class="checkbox-item" type="checkbox" name="parking" checked>Парковка</li>
-              <li><input class="checkbox-item" type="checkbox" name="Wi-Fi">Wi-Fi</li>
+              <li class="checkbox-form" >
+                <input id="checkbox-pull" class="checkbox-item" type="checkbox" name="pull" checked>
+                <label for="checkbox-pull" class="checkbox-label">Бассейн</label>
+              </li>
+              <li>
+                <input id="checkbox-parking" class="checkbox-item" type="checkbox" name="parking" checked>
+                <label for="checkbox-parking" class="checkbox-label">Парковка</label>
+              </li>
+              <li>
+                <input id="checkbox-wifi" class="checkbox-item" type="checkbox" name="Wi-Fi">
+                <label for="checkbox-wifi" class="checkbox-label">Wi-Fi</label>
+              </li>
             </ul>
             </fieldset>
             <fieldset class="form-filter-items-2-list">
             <legend class="form-filter-items-title">Тип Жилья:</legend>
             <ul class="form-filter-items-2">
-              <li><input class="radio-item" type="radio" name="type" value="Гостиница" checked>Гостиница</li>
-              <li><input class="radio-item" type="radio" name="type" value="Мотель">Мотель</li>
-              <li><input class="radio-item" type="radio" name="type" value="Апартаменты">Апартаменты</li>
+              <li>
+                <input id="radio-hotel" class="radio-item" type="radio" name="type" value="Гостиница" checked>
+                <label for="radio-hotel" class="radio-item-label">Гостиница</label>
+              </li>
+              <li>
+                <input id="radio-motel" class="radio-item" type="radio" name="type" value="Мотель">
+                <label for="radio-motel" class="radio-item-label">Мотель</label>
+              </li>
+              <li>
+                <input id="radio-studio" class="radio-item" type="radio" name="type" value="Апартаменты">
+                <label for="radio-studio" class="radio-item-label">Апартаменты</label>
+              </li>
             </ul>
           </fieldset>
           <fieldset class="form-filter-price">
