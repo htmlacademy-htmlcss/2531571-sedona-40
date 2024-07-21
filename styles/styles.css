@@ -1103,7 +1103,7 @@ body {
 
 .toggle-min {
   top: -8px;
-  left: 0px;
+  left: 0;
   border: none;
   border-radius: 5px;
 }
@@ -1169,7 +1169,7 @@ body {
   display: inline-block;
   position: absolute;
   left: -11px;
-  top: 0px;
+  top: 0;
   background: url("../images/catalog-page/radio-item-no-checked.svg") 0 0
     no-repeat;
   width: 24px;
