@@ -555,7 +555,7 @@ body {
   background-position: 50% 25%;
 }
 
-.offer-items > li > h3 {
+.offer-item-title {
   font-size: 24px;
   line-height: 117%;
   text-transform: uppercase;
@@ -566,7 +566,7 @@ body {
   margin-bottom: 30px;
 }
 
-.offer-items > li > p {
+.offer-item-descr {
   font-size: 18px;
   line-height: 117%;
   text-align: center;
@@ -652,7 +652,7 @@ body {
   margin-bottom: 54px;
 }
 
-.subcribe-main > .subcribe-text > h3 {
+.subcr-title {
   font-size: 30px;
   line-height: 120%;
   text-transform: uppercase;
@@ -661,7 +661,7 @@ body {
   margin-bottom: 21px;
 }
 
-.subcribe-main > .subcribe-text > p {
+.subcr-descr {
   font-weight: 400;
   font-size: 22px;
   line-height: 118%;
