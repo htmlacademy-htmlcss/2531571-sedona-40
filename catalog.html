@@ -14,9 +14,8 @@
           <img src="images/index-page/logo-sedona.svg" width="140" height="70" alt="Логотип Седона">
           </a>
         <nav class="navigation">
-
           <ul class="navigation-list">
-            <li class="catalog-navigation-item">
+            <li class="navigation-item">
               <a class="nav-item-link" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
@@ -30,13 +29,11 @@
           <li class="nav-user-item">
             <a class="search-icon" href="#">
               <span class="visually-hidden">Поиск</span>
-              <img class="header-search" src="images/index-page/search-header.svg" width="18" height="18" alt="Иконка поиска">
             </a>
           </li>
           <li class="nav-user-item">
             <a class="nav-user-a" href="#">
               <span class="visually-hidden">Избранное</span>
-              <img class="favorite-header" src="images/index-page/favorite-header.svg" width="18" height="18" alt="Иконка избранного">
             <output class="notification-badge">12</output>
           </a>
           </li>
@@ -160,7 +157,12 @@
             <button class="hotel-widget-favorite" type="button">В избранное</button>
           </div>
           <div class="hotel-rating-block">
-            <img src="images/catalog-page/rating-amara-resort.svg" width="140" height="37" alt="Звезды рейтинга">
+            <ul class="rating-star" aria-hidden="true">
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+            </ul>
             <p class="rating">Рейтинг: 8,5</p>
           </div>
           </li>
@@ -177,7 +179,12 @@
             <button class="hotel-widget-favorite-active" type="button">В избранном</button>
           </div>
           <div class="hotel-rating-block">
-            <img src="images/catalog-page/rating-villas-at-poco.svg" width="140" height="37" alt="Звезды рейтинга">
+            <ul class="rating-star" aria-hidden="true">
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+            </ul>
             <p class="rating">Рейтинг: 9,2</p>
             </div>
           </li>
@@ -194,7 +201,11 @@
             <button class="hotel-widget-favorite" type="button">В избранноe</button>
           </div>
           <div class="hotel-rating-block">
-            <img src="images/catalog-page/rating-desert-quali.svg" width="140" height="37" alt="Звезды рейтинга">
+            <ul class="rating-star" aria-hidden="true">
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+            </ul>
             <p class="rating">Рейтинг: 6,9</p>
             </div>
           </li>
@@ -210,7 +221,10 @@
             <button class="hotel-widget-favorite" type="button">В избранноe</button>
           </div>
           <div class="hotel-rating-block">
-            <img src="images/catalog-page/rating-greentree.svg" width="140" height="37" alt="Звезды рейтинга">
+            <ul class="rating-star" aria-hidden="true">
+              <li class="one-star-rating"></li>
+              <li class="one-star-rating"></li>
+            </ul>
             <p class="rating">Рейтинг: 5,0</p>
             </div>
           </li>
@@ -242,8 +256,8 @@
       </section>
       <section class="subcribe-main" data-test="subscribe">
         <div class="subcribe-text">
-        <h3>Подпишитесь на рассылку</h3>
-        <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+          <h3 class="subcr-title">Подпишитесь на рассылку</h3>
+          <p class="subcr-descr" >Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
       </div>
       <form action="https://echo.htmlacademy.ru/courses" method="post" class="subscribe">
         <label class="visually-hidden" for="subcr-email">Ваш e-mail</label>
